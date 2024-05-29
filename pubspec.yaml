@@ -10,8 +10,12 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   http: ^1.2.1
-  get: ^4.6.6
-  cached_network_image: ^3.3.1
+  get: ^4.6.1
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.0.20
+  webview_flutter: ^3.0.4
+
+
 
 dev_dependencies:
   flutter_test:

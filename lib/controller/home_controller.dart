@@ -16,4 +16,12 @@ class HomeController extends GetxController {
     articles = articlesList;
     update();
   }
+  loadUrlLauncher() async {
+    var response = await Network.GET(Network.API_GET_BITCOIN, Network.paramsArticle());
+    List<Article> articlesList = Network.parseArticles(response!);
+    print(articlesList.length);
+
+    articles = articlesList;
+    update();
+  }
 }
